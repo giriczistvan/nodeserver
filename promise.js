@@ -80,9 +80,15 @@ const myPromise = new Promise((resolve, reject) => {
            (Ha nem talált akkor pedig: not found.)
           A catch a hibakezelésre van.
 
-          A következő példában egy újabb remek használatát láthatjátok a Promise-nak. Két Promise hozunk létre. A Promise.all() annyit tesz, hogy a paraméterként megadott, jelen esetben kettő darab Promise-ból egy darab összegyúrt Promise-t ad vissza. Ez az összetett Promise akkor lesz teljesített, ha a magába foglalt Promise-ok mindegyike lefutott.
+A következő példában egy újabb remek használatát láthatjátok a Promise-nak.
+Két Promise hozunk létre. A Promise.all() annyit tesz, hogy a paraméterként megadott,
+jelen esetben kettő darab Promise-ból egy darab összegyúrt Promise-t ad vissza.
+Ez az összetett Promise akkor lesz teljesített, 
+ha a magába foglalt Promise-ok mindegyike lefutott.
 
-Az alábbi példában az egyik 3 a másik 10 másodperc után fut le. Így a későbbi időpontban, tehát 10 másodperc múlva lesz mind a kettő teljesítve (Ne feledjük, aszinkron futnak!)
+Az alábbi példában az egyik 3 a másik 10 másodperc után fut le.
+ Így a későbbi időpontban, tehát 10 másodperc múlva lesz mind a kettő teljesítve
+  (Ne feledjük, aszinkron futnak!)
 
 const cat = new Promise(resolve => {
   setTimeout(() => {
