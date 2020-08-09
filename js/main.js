@@ -35,5 +35,8 @@ function filldatatable(data,tableID) {
     }
         
 }
+//
+function createanyelement(name, attrib){
+    let element = document.createElement(name);
 
-
+}
