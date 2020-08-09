@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="buttonrow">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <button class="btn btn-block btn-primary" id="getdatabutton">
+                    Get Users
+                </button>
+            </div>
+            <div class="col-2"></div>
+        </div><div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+               
+                <table class="table table-striped" id="usertable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
+

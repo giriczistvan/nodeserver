@@ -20,7 +20,8 @@ const fetchData = fetch("http://localhost:3000/users", fetchInit);
 fetchData.then(data => data.json()).then(data => console.log(data));
 Kombináljuk!
 
-A fetch() egy Promise-szal tér vissza, amit bátran használunk is. Elkérjük a JSON-t, és feldolgozzuk, mint az imént:
+A fetch() egy Promise-szal tér vissza, amit bátran használunk is. 
+Elkérjük a JSON-t, és feldolgozzuk, mint az imént:
 
 const postPromise = fetch("http://localhost:3000/users");
 postPromise

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/giriczistvan/nodeserver/issues"
   },
-  "homepage": "https://github.com/giriczistvan/nodeserver#readme"
+  "homepage": "https://github.com/giriczistvan/nodeserver#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
 }
