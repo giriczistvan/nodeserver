@@ -1,6 +1,21 @@
-{"users":[
-    {"id":1,"name":"Tóth Sanyi", "email":"sanyi@gmail.com"},
-    {"id":2,"name":"Nagy Pisti", "email":"pityu@gmail.com"},
-    {"id":3,"name":"Tóth Zoli", "email":"zoli@gmail.com"}
-],
-"messages":[{"id":1,"message":"fontos üzenetek","user_id":2}]}
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tóth Sanyi",
+      "email": "sanyi@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Tóth Zoli",
+      "email": "zoli@gmail.com"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "message": "fontos üzenetek",
+      "user_id": 2
+    }
+  ]
+}
